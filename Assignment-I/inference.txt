@@ -1,0 +1,55 @@
+Assignment 1, python script is used to simulate
+
+part1: resource of individual depends on his own resource at previous time instance
+
+simulation parameters
+individuals = 1000
+resources = 10000
+time stamps = 1000
+
+resource function = const*math.pow(a[i],power_a)*math.pow(b[i],power_b)   
+a corresponds to abilities
+b corresponds to resources
+
+Inference:
+
+1)After simulation from graph plotting we can observe that "rich re getting richer" phenomena clearly and after 80% of simulation out of total wealth 90% of wealth is with 10-20 individuals
+
+
+part2: resource of individual depends on his own resource at previous time instance and his own degree
+
+simulation parameters
+individuals = 1000  
+time stamps = 20 
+resources=10000
+
+a rando network is developed using python script to simulate 
+
+resource function = const*math.pow(a[i],power_a)*math.pow(b[i],power_b)*math.pow(count_edge,power_c)
+
+a corresponds to abilities
+b corresponds to resources
+
+Inference:
+
+2) After simulation from graph plotting we can observe that "rich re getting richer" phenomena and also initial resource is playing role and may be over taken later depending on how is the function dependent on degree of individual
+
+part2: resource of individual depends on his own resource at previous time instance and his neighbourhood resources
+
+simulation parameters
+individuals = 1000  
+time stamps = 10 
+resources=10000
+
+a rando network is developed using python script to simulate 
+
+resource function = const*math.pow(a[i],power_a)*math.pow(b[i],power_b)*math.pow(neighbourhood resources),power_c)
+
+a corresponds to abilities
+b corresponds to resources
+
+Inference:
+
+ 1) after simulation from graph plotting we can observe that "rich re getting richer" phenomena will fail 
+ 2) initial resource is playing role and may be over taken later depending on how is the function dependent on degree of individual
+ 3) rapid exchange of resources can be observed depending on the neighbourhood resources available

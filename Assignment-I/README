@@ -1,0 +1,15 @@
+run python codes in "network_assignment" directory only 
+part1.py code is for part1 of assignment1
+part2_edges.py is for network model with degrees playing role in wealth determination
+part2_resources.py is for network model with resources of neighbour playing role in wealth determination
+part1 directory contains data regarding program part1.py
+part2_1 directory corresponde to part2_edges.py
+part2_2 directory corresponds to part2_resources.py
+logfile contains data logged into it during simulation
+plot.py file in sub directories(part1,part2_1,part2_2) corresponds to python program required to plot graphs
+degree.txt in part2_1,part2_2 directories contains degree of each indivudual
+part1.py simulation is run on data individuals=1000, resources=10000, timestamps=1000  ( can be changed in original code)
+part2_edges simulation is done on individuals=1000, resources=10000, timestamps=20
+part2_resources.py simulations is done on individuals=1000, resources=10000, timestamps=10
+graph plots are logged into corresponding directories named images and corresponding sub directories if any
+inferences are logged into inference.txt file
